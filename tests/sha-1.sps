@@ -17,7 +17,7 @@
 #!r6rs
 
 (import (rnrs)
-        (only (srfi :1 lists) iota)
+        (for (only (srfi :1 lists) iota) expand)
         (srfi :78 lightweight-testing)
         (weinholt bytevectors)
         (weinholt crypto sha-1))
